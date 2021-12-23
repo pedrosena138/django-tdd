@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+ptvsd = "*"
+autopep8 = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+djangorestframework-csv = "*"
+django-configurations = "*"
+django-cors-headers = "*"
+django-filter = "*"
+django-simple-history = "*"
+mysql-connector-python = "8.0.16"
+openpyxl = "*"
+psycopg2 = "*"
+psycopg2-binary = "*"
+pylint = "*"
+python-dotenv = "*"
+requests = "*"
+xlrd = "*"
+
+[scripts]
+dev = "python manage.py runserver 0.0.0.0:8000"
+
+[requires]
+python_version = "3.8"
